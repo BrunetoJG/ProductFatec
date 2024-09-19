@@ -17,6 +17,9 @@
                     <td>{{product.name}}</td>
                     <td>${{product.price}}</td>
                     <td>{{product.category}}</td>
+                    <td>
+                        <button class="btn btn-danger" (click)="remove(product)">Remover</button>
+                    </td>
             </tr>
             
         </tbody>

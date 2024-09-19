@@ -28,5 +28,7 @@ products: Product[] = [
     category: "Eletrônicos"
   }
 ];
-
+remove(removeProduct:Product){
+  this.products = this.products.filter( b => b !== removeProduct);
+}
 }
