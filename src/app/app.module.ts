@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductsTableComponent } from './products-table/products-table.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
