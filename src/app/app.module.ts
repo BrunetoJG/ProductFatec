@@ -10,13 +10,17 @@ import { ProductFormComponent } from './product-form/product-form.component';
 import { ProductsTableComponent } from './products-table/products-table.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsTableComponent,
-    ProductFormComponent
+    ProductFormComponent,
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
